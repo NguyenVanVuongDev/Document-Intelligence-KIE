@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model weights and generated artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.pkl
+*.pickle
+
+# Dataset (uncomment if needed)
+# data/

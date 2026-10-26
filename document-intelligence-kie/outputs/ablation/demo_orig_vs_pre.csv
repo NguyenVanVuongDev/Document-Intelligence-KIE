@@ -1,0 +1,7 @@
+image,variant,n_boxes,mean_conf,n_conf_ge_07,text_chars,elapsed_ms
+mcocr_public_145014drgcr.jpg,orig,27,0.9494,27,335,14458.4
+mcocr_public_145014drgcr.jpg,pre,25,0.9585,25,301,14092.1
+mcocr_public_145014dcpkd.jpg,orig,20,0.981,20,265,18543.5
+mcocr_public_145014dcpkd.jpg,pre,20,0.975,20,264,18105.7
+VAIPE_P_TRAIN_753.png,orig,51,0.9772,51,955,38044.4
+VAIPE_P_TRAIN_753.png,pre,51,0.9742,51,959,42899.1

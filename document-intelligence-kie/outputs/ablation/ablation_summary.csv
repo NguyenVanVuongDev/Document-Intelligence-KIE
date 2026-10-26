@@ -1,0 +1,6 @@
+ablation,n_images,mean_boxes,mean_conf,mean_conf_ge_07,mean_chars,mean_ms
+baseline,3,32.667,0.969,32.667,518.333,23534.4
+shadow,3,32.0,0.973,32.0,514.333,23668.733
+shadow+deskew,3,32.0,0.97,32.0,507.667,22923.3
+shadow+clahe,3,31.667,0.971,31.333,508.333,22702.0
+all,3,32.0,0.969,32.0,508.0,22809.833
