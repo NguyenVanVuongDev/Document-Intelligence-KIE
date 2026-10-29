@@ -1,0 +1,55 @@
+{
+  "uid": "mc-ocr/mcocr_public_145013cixex",
+  "image": "mcocr_public_145013cixex.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Thị Gia Lâm",
+    "date": "17/08/2020",
+    "total": "475000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "",
+    "total": "475000",
+    "address": "Tên hàng SL DVT Đon giá Thanh tién"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Sút Phù Thj Gla Larn",
+    "Tel:",
+    "HÓA DON BÁN HANG",
+    "Tên hàng SL DVT Đon giá Thanh tién",
+    "291005610000 Mi omachi tôm 79g NT 30,000",
+    "5 GOI 6,000",
+    "8935265210029 bánh trúng mém belgi túi 24 NT 24,000",
+    "GOI 24,000",
+    "8934680113885 bánh cosy túi 576g NT",
+    "1 GOI 47,000 47,000",
+    "8936136161150 tuang 6t chinsu chai 500g N0",
+    "1 CHA 20,000 20,000",
+    "291009160000 Tuang 6t chinsu 250g NT",
+    "1 CHA 12,000 12,000",
+    "291015620000 sőt mayonnaise aji mayo NT",
+    "1 TUI 30,000 30,000",
+    "8934673604826 Sra chua Probi VNM 100g NT",
+    "Giá đăng ký: 7,000",
+    "Giá bán: 48 CAI 6,500 312,000",
+    "Tóng ső: 58",
+    "8ng công 475,000",
+    "óng tién : 475,000",
+    "ién khách trá: VND 500,000",
+    "én trà lai VND 25,000",
+    "Mã thé: A10000000033",
+    "(0) Đng Thj Thu Huong",
+    "Diêm mua: 47",
+    "Dim hiên thài: 2,734",
+    "Hang hin thài:",
+    "Giá tri thung tich lüy: 33,243"
+  ]
+}

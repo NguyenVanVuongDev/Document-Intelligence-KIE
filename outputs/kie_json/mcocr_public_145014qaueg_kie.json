@@ -1,0 +1,55 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014qaueg",
+  "image": "mcocr_public_145014qaueg.jpg",
+  "gt_fields": {
+    "merchant": "BÁCH HOÀ XANH",
+    "address": "Thửa đất số 14 Tờ bản đồ số 3 Khu phố Đông Chiêu, Phường Tân Đông Hiệp, Thị xã Dĩ An.",
+    "date": "01/08/2020",
+    "total": "88500"
+  },
+  "baseline_fields": {
+    "merchant": "BÁCH HÓA XANH",
+    "date": "01/08/2020",
+    "total": "88500",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "BÁCH HÓA XANH",
+    "date": "01/08/2020",
+    "total": "88500",
+    "address": "Thua dăt só 14, Tà bán då să 3, Khu phó Đông Chiêu. Phuòng Tan Đöng Hièp. Thi xä DT An."
+  },
+  "lines": [
+    "BÁCH HÓA XANH",
+    "www.bachhoaxann.com",
+    "Thua dăt só 14, Tà bán då să 3, Khu phó Đông",
+    "Chiêu. Phuòng Tan Đöng Hièp. Thi xä DT An.",
+    "PHIÉU THANH TOÁN",
+    "SO CT: 20081052740024895",
+    "Ngày CT: 01/08/2020 11:45",
+    "Nhân viên: Phm Th| Vy",
+    "SL Giá bán T.Tlén",
+    "NUOC NGQT 7UP PET 390ML",
+    "1 7,500 7,500",
+    "BUOC NGOT COKE PET 390ML",
+    "1 7,000 7,000",
+    "NUOC ÉP TAO STRONG BOW HONEY CHAI",
+    "2 18,500 37,000",
+    "NUÓC ÉP TÁO STRONG BOW BERRY CHAI",
+    "2 18,500 37,000",
+    "Tóng len: 88,500",
+    "Thanh toán: 88,500",
+    "(Đã làm tròn)",
+    "Tién mět: 200,000",
+    "Tién thói lai: 111,500",
+    "(Giá trên đã bao gōm thué GTGT)",
+    "Luu : Bách Hóa Xanh chl xuát hóa đan trong",
+    "ngày, Quý khách vui lòng liên h thu ngân dé",
+    "dugc hô tro. Quý khách có thé in bán sao hóa",
+    "don VAT tąi trang web",
+    "https.//hddt.bachhoaxanh.com.",
+    "Quý khách vul lòng xem chi tiét Chính sách",
+    "ddi-trá hang dugc niém yét ti cra hàng BHx.",
+    "Xin căm on quý khách. Hęn găp laii"
+  ]
+}

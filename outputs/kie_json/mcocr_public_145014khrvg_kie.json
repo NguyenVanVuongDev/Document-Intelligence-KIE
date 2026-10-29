@@ -1,0 +1,49 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014khrvg",
+  "image": "mcocr_public_145014khrvg.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "13/08/2020",
+    "total": "116000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "13/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "13/08/2020",
+    "total": "116000",
+    "address": "Tên hàng SL DVT Đon giá Thành tin 8936136161334 mì omachi 102 bò nãu dua ch N0"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Sùi Phú Thi Gia Lám",
+    "Tel:",
+    "HÓA DON BÁN HÀNG",
+    "Tên hàng SL DVT Đon giá Thành tin",
+    "8936136161334 mì omachi 102 bò nãu dua ch N0",
+    "1 GOI 10,000 10,000",
+    "8936136161440 mì omachi bò hm nãu gói 10 N0",
+    "1 GOI 10,000 10,000",
+    "8934680045681 bánh mì bò kđ NT",
+    "2 GOI 8,000 16,000",
+    "291005570000 Mì omachi bò 82g NT",
+    "5 GOI 6,000 30,000",
+    "291014560000 Sũa kun socola, đuàng 180ml NT",
+    "Giá đăng ký: 6,500",
+    "Giá bán: 4 HOP 6,250 25,000",
+    "291016570000 Sa kun cam, dåu 180ml NT",
+    "Giá đăng ký: 6,500",
+    "Giá bán: 4 CAI 6,250 25,000",
+    "Tongső: 17",
+    "Tông công: 116,000",
+    "Tông tin : 116,000",
+    "Tin khách trà: VND 120,000",
+    "Tin trà lai VND: O 4,000",
+    "Ső GD: 000AB2212008003233 Ngày: 13/08/2020-10:35"
+  ]
+}

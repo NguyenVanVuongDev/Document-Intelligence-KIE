@@ -1,0 +1,49 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014cgzmv",
+  "image": "mcocr_public_145014cgzmv.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "10/08/2020",
+    "total": "169000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "10/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "10/08/2020",
+    "total": "169000",
+    "address": "Tên hàng SL DVT Đon giá Thành tiên"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Súi Phú Thi Gia Lám",
+    "Tel:",
+    "HÓA DON BÁN HANG",
+    "Tên hàng SL DVT Đon giá Thành tiên",
+    "8934673616829 sűa chua vnm 100% NT",
+    "Giá đăng ký: 6,000",
+    "Giá bán: 8 HOP 5,750 46,000",
+    "8934673606820 Süa chua dung VNM 100g NT",
+    "Giá đăng ký: 6,000",
+    "Giá bán: 8 HOP 5,250 42,000",
+    "8934673605823 Süa chua VNM ko duàng NT",
+    "1 HOP 6,000 6,000",
+    "8934673606813 Sűa chua susu VNM NT",
+    "Giá đăng ký: 7,000",
+    "Giá bán: 12 HOP 6,250 75,000",
+    "Tongső: 29",
+    "169,000",
+    "Tông cng:",
+    "169,000",
+    "Tông tin :",
+    "Tin khách trà: VND 169,000",
+    "S6 GD: 000AC2212008001308 Ngày: 10/08/2020-17:40",
+    "Thu ngân: BH3",
+    "Xin cám an và hen gǎp lai quý khách !"
+  ]
+}

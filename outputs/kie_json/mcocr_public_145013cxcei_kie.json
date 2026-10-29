@@ -1,0 +1,35 @@
+{
+  "uid": "mc-ocr/mcocr_public_145013cxcei",
+  "image": "mcocr_public_145013cxcei.jpg",
+  "gt_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CẨM PHẢ",
+    "address": "ĐC: 212 Đường Trần Phú - Cẩm Phả",
+    "date": "45/15/2008",
+    "total": "37000"
+  },
+  "baseline_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CÁM PHÀ",
+    "date": "",
+    "total": "37000",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CÁM PHÀ",
+    "date": "",
+    "total": "37000",
+    "address": "ĐC: 212 Đuàng Trán Phú-Câm Phà"
+  },
+  "lines": [
+    "NHÀ SÁCH GD-TC CÁM PHÀ",
+    "ĐC: 212 Đuàng Trán Phú-Câm Phà",
+    "Nhân viên thu ngån:",
+    "DT 0333863328- Fax 0333863328",
+    "Thài gian:09:05:45 - 15/08/2020",
+    "Tén hàng SL Giá Ck Thnh tién",
+    "8-BT B8 tra NC 1 37.000 0 37.000d",
+    "Töng công: 1 37.000d",
+    "Chit kháu bán hàng: DO",
+    "Tóng ső thanh toán: 37.000á",
+    "XIN CÁM ON QUÍ KHÁCH!"
+  ]
+}

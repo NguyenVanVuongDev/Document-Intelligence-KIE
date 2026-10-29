@@ -1,0 +1,38 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014oiwct",
+  "image": "mcocr_public_145014oiwct.jpg",
+  "gt_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CẨM PHẢ",
+    "address": "",
+    "date": "32/14/2008",
+    "total": "20000"
+  },
+  "baseline_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CÁM PHÃ",
+    "date": "14/08/2020",
+    "total": "20000",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CÁM PHÃ",
+    "date": "",
+    "total": "20000",
+    "address": "ĐC: 212 Đung Trn Phú-Cm Phå"
+  },
+  "lines": [
+    "NHÀ SÁCH GD-TC CÁM PHÃ",
+    "ĐC: 212 Đung Trn Phú-Cm Phå",
+    "Nhân viên thu ngân:",
+    "DT 0333863328-Fax 0333863328",
+    "Thài gian:09:06:32-14/08/2020",
+    "Tên hàng SL Giá Ck Thnh tin",
+    "Bô Hő so 4 5.000 0 20.000d",
+    "Töng công: 4 20.000a",
+    "Chit khu bán hàng: Od",
+    "Tőng s thanh toán: 20.000d",
+    "XIN CÃM ON QUÍ KHÁCH!",
+    "OOO",
+    "Samsung Triple Camera",
+    "Chup bang Galaxy M21"
+  ]
+}

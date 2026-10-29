@@ -1,0 +1,39 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014ykqth",
+  "image": "mcocr_public_145014ykqth.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "15/08/2020",
+    "total": "124000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "15/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "HÓA DON BÁN HANG",
+    "date": "15/08/2020",
+    "total": "124000",
+    "address": "ên hàng SL DVT Đon giá Thành tiên"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chơ Súi Phú Thi Gia Lâm",
+    "HÓA DON BÁN HANG",
+    "ên hàng SL DVT Đon giá Thành tiên",
+    "934752050018 mm t8m trung thành 300g N0",
+    "1 CHA 22,000 22,000",
+    "36136161648 Mm Nam ngu đ nhi 900ml NT",
+    "1 CHA 14,000 14,000",
+    "1002560000 Du Simply 2L NT",
+    "1 CHA 88,000 88,000",
+    "gső: 3",
+    "g công : 124,000",
+    "khách trá: VND 200,000",
+    "à li VND: 76,000",
+    "GD: 000AC2212008002083 Ngày: 15/08/2020-16:53"
+  ]
+}

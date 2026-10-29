@@ -1,0 +1,55 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014vkdhy",
+  "image": "mcocr_public_145014vkdhy.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm Lâm",
+    "date": "12/08/2020",
+    "total": "283000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "12/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "HÓA DON BÁN HANG",
+    "date": "12/08/2020",
+    "total": "283000",
+    "address": "Tén hàng SL DVT Đon giá Thành tián 291043280000 bánh mì nho dùa NO"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Cho Súl Phu Thi Gia Lam",
+    "el:",
+    "HÓA DON BÁN HANG",
+    "Tén hàng SL DVT Đon giá Thành tián",
+    "291043270000 bánh mì hoa cúc NO",
+    "1 CAI 30,000 30,000",
+    "291043280000 bánh mì nho dùa NO",
+    "1 CAI 20,000 20,000",
+    "291020570000 GVS watersilk 3 I6p NT",
+    "1 GOI 66,000 66,000",
+    "8934868133155 comfort trăng túi 1.6L NT",
+    "1 TUI 90,000 90,000",
+    "291009270000 Thach sa chua vf, odeli 1k NT",
+    "1 GOI 30,000 30,000",
+    "8936036021172 Bim Marinboy các màu 30g NT",
+    "1 HOP 9,000 9,000",
+    "291006110000 khoai tåy őng slide 160g NT",
+    "1 HOP 38,000 38,000",
+    "Tong ső: 7",
+    "Tông công 283,000",
+    "Tiên khách trá: VND 283,000",
+    "Mã thè: A10000000346",
+    "(0) nguyn lan anh",
+    "Diêm mua: 28",
+    "Đim hin thài: 2,657",
+    "Hang hin thài:",
+    "Giá tri thưng tich lūy: 24,452",
+    "S GD: 000AC2212008001693 Ngày: 12/08/2020-15:06",
+    "Thu ngân: BH3",
+    "Xin cám an và hen gǎp lai quý khách!"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid": "mc-ocr/mcocr_public_145013nkpao",
+  "image": "mcocr_public_145013nkpao.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+QNH 112 Thanh Niên TP. Cẩm Phả, Quảng Ninh Số 112 Thanh Niên, P. Cẩm Thành",
+    "date": "15/08/2020",
+    "total": "25500"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ QNH 112 Thanh Niên",
+    "date": "15/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce",
+    "date": "15/08/2020",
+    "total": "25500",
+    "address": "VM+ QNH 112 Thanh Niên Sè 112 Thanh Nién. P. Căm Thanh TP. Căm Phà, Quang Ninh"
+  },
+  "lines": [
+    "VM+ QNH 112 Thanh Niên",
+    "Sè 112 Thanh Nién. P. Căm Thanh",
+    "TP. Căm Phà, Quang Ninh",
+    "VinCommerce",
+    "024.71066866-39671",
+    "HÓA ĐdN BÁN HÃNG",
+    "Ngày bán:15/08/2020 09:16 HD:00182194",
+    "Quáy:001 NVBH:09015345",
+    "Mät hàng Ddn giá SL T.Tiên",
+    "TRIDENT Kęo gum Kθ trái cây 26.6g (T144)",
+    "012546011112 25.500 1 25.500",
+    "TÖNG TIËN PHÃI T.TOÁN 25.500",
+    "TÖNG TIËN DÃ GIÃM 0",
+    "TIËN KHÁCH TRÃ 25.500",
+    "TIEN MAT 25.500",
+    "TIÊN TRÃ LAI 0",
+    "(Giá đã bao gm thué GTGT)",
+    "chǐ xuát hóa đơn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM ON QUÝ KHÁCH VÀ HĘN GĂP LAI",
+    "Hotline: 02471066866 Website: vinma:t.com"
+  ]
+}

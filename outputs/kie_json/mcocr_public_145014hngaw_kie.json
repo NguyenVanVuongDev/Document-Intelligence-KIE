@@ -1,0 +1,46 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014hngaw",
+  "image": "mcocr_public_145014hngaw.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "10/08/2020",
+    "total": "155000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "10/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "10/08/2020",
+    "total": "155000",
+    "address": "Tên hàng SL DVT Đon giá Thanh tin"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Sùi Phú Thi Gia Lâm",
+    "el:",
+    "HÓA DON BÁN HANG",
+    "Tên hàng SL DVT Đon giá Thanh tin",
+    "291009770000 Xà bông Enchanteur NT",
+    "1 HOP 16,000 16,000",
+    "8934673400510 1 visűa chua men sóng prob NT",
+    "2 VI 21,000 42,000",
+    "8935039500752 mi chinh ajinomoto 2kg NT",
+    "1 GOI 97,000 97,000",
+    "Tóngsó: 4",
+    "Tông công: 155,000",
+    "Tién khách trà: VND 155,000",
+    "Mã thè: A10000000096",
+    "(0) Büi Thi Huong",
+    "Điêm mua: 15",
+    "Điêm hin thài: 4,099",
+    "Hang hin thoi:",
+    "Giá tri thung tich lüy: 48,676",
+    "S6 GD:000AC2212008001345 Ngày: 10/08/2020-18:57",
+    "Thu ngân: BH3"
+  ]
+}

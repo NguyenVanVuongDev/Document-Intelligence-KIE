@@ -1,0 +1,47 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014pcsfj",
+  "image": "mcocr_public_145014pcsfj.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+QNH 1060-1062 Trần Phú Số 10604062 Đường Trần Phú TP.Cẩm Phả, Quảng Ninh",
+    "date": "13/08/2020",
+    "total": "4320043200"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ QNH 1060-1062 Tràn Phú",
+    "date": "13/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce",
+    "date": "13/08/2020",
+    "total": "43200",
+    "address": "VM+QNH 1060-1062 Tràn Phú Só 1080-1062 Duóng Tran Phú TP. Căm Phá, Quáng Ninh"
+  },
+  "lines": [
+    "VM+QNH 1060-1062 Tràn Phú",
+    "Só 1080-1062 Duóng Tran Phú",
+    "VinCommerce",
+    "TP. Căm Phá, Quáng Ninh",
+    "02471066866-49301",
+    "HÓA dN BÁN HÃNG",
+    "Ngày bán:13/08/2020 18:44 H:00064217",
+    "Quay:001 NVBH:09024146",
+    "Mät hàng dn giá SL T.Tiên",
+    "Bánh phð khô Xua & Nay gói 5oog",
+    "8934563206109 31.200 1 31.200",
+    "HÜU NGHI Lưðng Khô Cacao 70g",
+    "8934760000166 3.000 4 12.000",
+    "TÖNG TIËN PHÃI T.TOÁN 43.200",
+    "TÖNG TIËN Ã GIÃM 0",
+    "TIËN KHÁCH TRÃ 43.200",
+    "TIÊN MAT 100.000",
+    "TIËN TRÃ LAI 56.800",
+    "(Giá đã bao gőm thué GTGT)",
+    "chǐ xuát hóa đdn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM DN QUÝ KHÁCH VÃ HEN GÄP LAI",
+    "Hotline: 02471066866 Website: vinmart.com"
+  ]
+}

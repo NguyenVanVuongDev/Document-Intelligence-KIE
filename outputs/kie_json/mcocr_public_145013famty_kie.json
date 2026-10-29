@@ -1,0 +1,45 @@
+{
+  "uid": "mc-ocr/mcocr_public_145013famty",
+  "image": "mcocr_public_145013famty.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "15/08/2020",
+    "total": "64000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "15/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "15/08/2020",
+    "total": "64000",
+    "address": "Tên hàng SL DVT Đon giá Thành tin 8936096670259 bánh go one one mn to 230 N0"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Sùi Phú Thi Gia Lám",
+    "rel:",
+    "HÓA DON BÁN HANG",
+    "Tên hàng SL DVT Đon giá Thành tin",
+    "8936096670259 bánh go one one mn to 230 N0",
+    "1 GOI 26,000 26,000",
+    "8936096670075 Bánh go one one ngot 230g NT",
+    "2 GOI 19,000 38,000",
+    "Tông sδ: 3",
+    "ng cng: 64,000",
+    "Tiên khách trá: VND 64,000",
+    "Mãthè: A10000000779",
+    "(0) cao thi nhung",
+    "Điêm mua: 6",
+    "Đim hiên thi: 1,183",
+    "Hng hin thi:",
+    "Giá tri thung tích lūy: 20,835",
+    "S6 GD:000AC2212008002045 Ngày:15/08/2020-08:42",
+    "Thu ngân: BH2",
+    "Xin cám an và hn gǎp li quý khách !"
+  ]
+}

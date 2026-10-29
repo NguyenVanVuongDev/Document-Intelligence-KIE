@@ -1,0 +1,6 @@
+Tap_Du_Lieu,Cau_Hinh_Pipeline,WER_pct,Entity_F1_Date_pct,Entity_F1_Total_pct,Overall_KIE_F1_pct,Latency_ms
+Test (Clean Holdout),Baseline (Raw Image + OCR + Regex thuần),50.19,86.79,20.0,52.38,19775.5
+Test (Clean Holdout),Full Pipeline (OpenCV + OCR + Spatial KIE),27.47,88.46,85.19,78.9,19736.9
+Test Degraded (±15° Skew + Shadow),Baseline (Raw Image + OCR + Regex thuần),53.07,86.27,6.9,50.91,20607.7
+Test Degraded (±15° Skew + Shadow),Ablation (No OpenCV + OCR + Spatial KIE),40.32,86.27,33.33,60.19,20633.1
+Test Degraded (±15° Skew + Shadow),Full Pipeline (OpenCV + OCR + Spatial KIE),30.27,86.27,81.48,74.65,21929.6

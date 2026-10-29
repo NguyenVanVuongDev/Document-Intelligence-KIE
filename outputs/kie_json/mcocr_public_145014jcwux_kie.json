@@ -1,0 +1,41 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014jcwux",
+  "image": "mcocr_public_145014jcwux.jpg",
+  "gt_fields": {
+    "merchant": "VHA",
+    "address": "",
+    "date": "",
+    "total": ""
+  },
+  "baseline_fields": {
+    "merchant": "SCTC CÔ THÓ 104 TRÀN PHÚ - CÃM",
+    "date": "10/08/2020",
+    "total": "45000",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "SCTC CÔ THÒ 104 TRÀN PHÚ - CÃM",
+    "date": "10/08/2020",
+    "total": "45000",
+    "address": "104 Trân Phú - phuàng Cm Tây - Thành phő Cam Phá - Quáng Ninh"
+  },
+  "lines": [
+    "SCTC CÔ THÒ 104 TRÀN PHÚ - CÃM",
+    "PHÁ",
+    "104 Trân Phú - phuàng Cm Tây - Thành phő Cam",
+    "Phá - Quáng Ninh",
+    "Hotline: 0963133818",
+    "HÓA DON THANH TOÁN",
+    "S6:2003000899",
+    "Ngày: 10/08/2020 (08:28 CH- 0828 CH)",
+    "Thu ngân: thu ng.in 1041p",
+    "# Tên món SL DG % TT",
+    "KM",
+    "1 Bò khô 1 45.000 45.000",
+    "Tong thanh toán 45.000d",
+    "Tièn mat 45.000d",
+    "Trá lai khách Od",
+    "Trân trong cám on!",
+    "CUKCUK - Môt sán phám cua MISA"
+  ]
+}

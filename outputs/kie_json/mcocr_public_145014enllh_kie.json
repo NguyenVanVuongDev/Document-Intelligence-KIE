@@ -1,0 +1,42 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014enllh",
+  "image": "mcocr_public_145014enllh.jpg",
+  "gt_fields": {
+    "merchant": "VGR_VINMART 4987 VMQNH",
+    "address": "ĐỊA CHỈ ĐẠI LÝ Cảm Phả Quảng Ninh",
+    "date": "15/05/2020",
+    "total": "707000"
+  },
+  "baseline_fields": {
+    "merchant": "Vietcombank",
+    "date": "15/05/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "Vietcombank",
+    "date": "15/05/2020",
+    "total": "70700",
+    "address": "DIA CHE DAT LY"
+  },
+  "lines": [
+    "Vietcombank",
+    "TEN DAT LY",
+    "DIA CHE DAT LY",
+    "C930C50A MID:060101400062190",
+    "5945(0)",
+    "TEN: O2TERSKI/EDWARD",
+    "NGAY H.HAN 10/20",
+    "THANH TOAN",
+    "SO LO: 000113 SOH.DON: 000710",
+    "NGAY 15/05/2020 610 16:39:35",
+    "SO TC:01491001618 MA CHOAN CHT 093610",
+    "TONG CONG: UND70,700",
+    "APP: Visa Credit",
+    "ATD:A0000000031010",
+    "TC:D0F64CEEA9A11472",
+    "CHUKY: KHONG YEU CAL",
+    "Adlad 20",
+    "TOI XAC MHAN HOA DON THANH TOAN NAY"
+  ]
+}

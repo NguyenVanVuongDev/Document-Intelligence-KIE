@@ -1,0 +1,40 @@
+{
+  "uid": "mc-ocr/mcocr_public_145013blbqm",
+  "image": "mcocr_public_145013blbqm.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "09/08/2020",
+    "total": "63000"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "09/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "09/08/2020",
+    "total": "63000",
+    "address": "Tên hàng SL DVT Đon giá Thành tin 291020080000 huáng duang 0,4kg NT"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Súi Phú Thi Gia Lâm",
+    "Tel:",
+    "HÓA DON BÁN HÀNG",
+    "Tên hàng SL DVT Đon giá Thành tin",
+    "8935060600018 Thch rau câu Long Hài g?i NT",
+    "1 CAI 13,000 13,000",
+    "291020080000 huáng duang 0,4kg NT",
+    "1 BIC 25,000 25,000",
+    "8938502879485 ngô np tuai sãy gói 160g m NT",
+    "1 GOI 25,000 25,000",
+    "Tông ső: 3",
+    "Tông cng: 63,000",
+    "Tién khách trá: VND 63,000",
+    "S6 GD: 000AB2212008002420 Ngày: 09/08/2020-20:46",
+    "Thu ngân: BH5"
+  ]
+}

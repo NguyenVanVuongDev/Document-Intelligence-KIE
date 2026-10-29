@@ -1,0 +1,47 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014bokrq",
+  "image": "mcocr_public_145014bokrq.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+QNH Tổ 8 Khu 3B Cẩm Trung Tổ 8, Khu 3B, P. Cẩm Trung TP.Cẩm Phả, T.Quảng Ninh",
+    "date": "13/08/2020",
+    "total": "50100"
+  },
+  "baseline_fields": {
+    "merchant": "VM+QNH T6 8 Khu 3B Căm Trung",
+    "date": "13/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce",
+    "date": "13/08/2020",
+    "total": "50100",
+    "address": "VM+QNH T6 8 Khu 3B Căm Trung Tó 8, Khu 3B, P. Căm Trung TP.Căm Pha, T. Quang Ninh"
+  },
+  "lines": [
+    "VM+QNH T6 8 Khu 3B Căm Trung",
+    "Tó 8, Khu 3B, P. Căm Trung",
+    "VinCommerce",
+    "TP.Căm Pha, T. Quang Ninh",
+    "024.71066866-49871",
+    "HÓA ON BÁN HANG",
+    "Ngày bán:13/08/2020 20:47 H:00046190",
+    "Quáy:001 NVBH:09024527",
+    "Mät hàng dn giá SL T.Tien",
+    "süa TTT Dalat Milk khöng đuäng höp 450m1",
+    "8938503131742 24.500 24.500",
+    "Trúng gà tudi Dabaco hop 10 quå",
+    "8936057560032 25,600 1 25,600",
+    "TÖNG TIEN PHÃI T.TOÁN 50.100",
+    "TÖNG TIÊN Ã GIÃM 0",
+    "TIEN KHÁCH TRÃ 50.100",
+    "TIEN MAT 50.100",
+    "TIÊN TRÃ LAI 0",
+    "(Giá đã bao gőm thué GTGT)",
+    "chi xuát hóa đdn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM DN QUÝ KHÁCH VÃ HEN GĂP LAI",
+    "Hotline: 02471066866 Website: vinmart.com"
+  ]
+}

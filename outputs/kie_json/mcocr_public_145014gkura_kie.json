@@ -1,0 +1,45 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014gkura",
+  "image": "mcocr_public_145014gkura.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+    "date": "14/08/2020",
+    "total": "1000010000"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ QNH T6 7, Khu Minh Tin A",
+    "date": "14/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce",
+    "date": "14/08/2020",
+    "total": "10000",
+    "address": "VM+ QNH T6 7, Khu Minh Tiên A Tó 7, Khu Minh Tién A P. Căm Binh. TP. Cm Pha, QNH"
+  },
+  "lines": [
+    "VM+ QNH T6 7, Khu Minh Tiên A",
+    "Tó 7, Khu Minh Tién A",
+    "P. Căm Binh. TP. Cm Pha, QNH",
+    "VinCommerce",
+    "02471066868-51581",
+    "HÓA đN BÁN HÃNG",
+    "Ngày bán:14/08/2020 16:21 H:00032783",
+    "Quay:001 NVBH:09025438",
+    "Mät hàng dn giá SL T.Tin",
+    "Nưőc khoáng thiên nhiên LaVie chai 1.5L",
+    "8935005801012 10.000 1 10.000",
+    "TÖNG TIËN PHÃI T.TOÁN 10.000",
+    "TÖNG TIËN Ã GIÃM 0",
+    "TIËN KHÁCH TRÃ 10.000",
+    "TIÊN MÄT 10.000",
+    "TIÊN TRÃ LAI 0",
+    "(Giá đã bao gm thué GTGT)",
+    "chǐ xuát hóa đdn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM ON QUÝ KHÁCH VÃ HĘN GĂP LAI",
+    "Hotline: 02471066866 Website: vinmart.com"
+  ]
+}

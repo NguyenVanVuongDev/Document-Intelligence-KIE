@@ -1,0 +1,49 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014apodg",
+  "image": "mcocr_public_145014apodg.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+QNH Dự án KDC lấn biển cọc 6 DA khu DCLB coc 6,P.Cẩm Sơn TP. Cẩm Phả, T.Quảng Ninh",
+    "date": "14/08/2020",
+    "total": "160000"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ QNH Dur án KDC ln biên coc 6",
+    "date": "14/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce",
+    "date": "14/08/2020",
+    "total": "160000",
+    "address": "VM+ QNH Du án KDC ln biên coc 6 DA khu DCLB coc 6, P. Cam Son TP. Cm Phà, T. Quáng Ninh"
+  },
+  "lines": [
+    "VM+ QNH Du án KDC ln biên coc 6",
+    "DA khu DCLB coc 6, P. Cam Son",
+    "VinCommerce",
+    "TP. Cm Phà, T. Quáng Ninh",
+    "024.71066866-44561",
+    "HÓA dN BÁN HÃNG",
+    "Ngày bán:14/08/2020 18:01 H:00073278",
+    "Quây:001 NVBH:09021213",
+    "Mǎt hàng dn giá SL T.Tiên",
+    "CP_xưđng đuôi 500g",
+    "8935058962128 40.000 4 160.000",
+    "TÖNG TIËN PHÃI T.TOÁN 160.000",
+    "TÖNG TIÊN Ã GIÃM 0",
+    "TIËN KHÁCH TRÃ 160.000",
+    "TIÊN MÄT 110.000",
+    "VinID 50.000",
+    "TIÊN TRÃ LAI 0",
+    "(Giá đã bao gőm thué GTGT)",
+    "ID thě khách hàng XXXXXXXXXXXX3178",
+    "im tích(1.000VND=1 điëm) 5",
+    "s tham chiéu 00445600100073278",
+    "chǐ xuát hóa đdn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM DN QUÝ KHÁCH VÀ HEN GÄP LAI",
+    "Hot1ine: 02471066866 Website: vinmart.com"
+  ]
+}

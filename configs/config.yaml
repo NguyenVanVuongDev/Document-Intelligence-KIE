@@ -1,0 +1,163 @@
+preprocessing:
+  shadow_removal:
+    enabled: true
+    bg_kernel_size: 51
+    median_blur_ksize: 51
+    mode: divide
+    min_bg_std: 22.0
+  deskew:
+    enabled: true
+    mode: rotate
+    min_contour_area_ratio: 0.35
+    approx_epsilon_ratio: 0.02
+    max_rotation_deg: 18.0
+    min_skew_deg: 1.8
+  clahe:
+    enabled: true
+    clip_limit: 1.8
+    tile_grid_size: 8
+ocr:
+  engine: paddleocr
+  lang: vi
+  use_textline_orientation: true
+  use_doc_orientation_classify: false
+  use_doc_unwarping: false
+  text_det_limit_side_len: 960
+  text_det_limit_type: max
+  drop_score: 0.5
+  max_side_for_ocr: 960
+  enable_mkldnn: false
+kie:
+  spatial:
+    y_overlap_ratio: 0.5
+    same_col_x_tol_ratio: 0.35
+    max_lookahead_lines: 2
+    bottom_half_threshold: 0.4
+  fuzzy:
+    total_score_cutoff: 76
+    address_score_cutoff: 78
+  anchors:
+    total:
+    - TỔNG CỘNG
+    - TONG CONG
+    - TỔNG TIỀN
+    - TONG TIEN
+    - THANH TOÁN
+    - THANH TOAN
+    - TỔNG THANH TOÁN
+    - TONG THANH TOAN
+    - TỔNG TIỀN PHẢI T.TOÁN
+    - PHẢI T.TOÁN
+    - T.TOÁN
+    - T.TOAN
+    - THÀNH TIỀN
+    - THANH TIEN
+    - CỘNG TIỀN HÀNG
+    - CONG TIEN HANG
+    - TỔNG SỐ TIỀN
+    - TONG SO TIEN
+    - TỔNG SỐ
+    - SỐ TIỀN PHẢI TRẢ
+    - PHẢI THU
+    - TỔNG ĐƠN
+    - TOTAL
+    - GRAND TOTAL
+    - AMOUNT DUE
+    exclude_total:
+    - TIỀN KHÁCH ĐƯA
+    - KHÁCH ĐƯA
+    - KHACH DUA
+    - TIỀN THỪA
+    - TIEN THUA
+    - TIỀN TRẢ LẠI
+    - TRẢ LẠI
+    - TRA LAI
+    - THỐI LẠI
+    - CHANGE
+    - GIẢM GIÁ
+    - CHIẾT KHẤU
+    - DISCOUNT
+    - VAT
+    - THUẾ
+    - ĐIỂM
+    - SỐ LƯỢNG
+    address:
+    - ĐỊA CHỈ
+    - DIA CHI
+    - Đ/C
+    - 'ĐC:'
+    - 'DC:'
+    - ADDRESS
+    - 'ADD:'
+    - ĐƯỜNG
+    - PHƯỜNG
+    - QUẬN
+    - HUYỆN
+    - TỈNH
+    - THÀNH PHỐ
+    - TP.
+    - TX.
+    - THỊ XÃ
+    - 'TỔ '
+    - 'KHU '
+    - KP
+    - 'ẤP '
+    - 'THÔN '
+    - QUỐC LỘ
+    - QL
+    - VM+
+    - CẨM PHẢ
+    - QUẢNG NINH
+    - HÀ NỘI
+    - HỒ CHÍ MINH
+    - ĐÀ NẴNG
+    merchant_hints:
+    - SIÊU THỊ
+    - SIEU THI
+    - CỬA HÀNG
+    - CUA HANG
+    - CÔNG TY
+    - CONG TY
+    - NHÀ HÀNG
+    - NHA HANG
+    - COFFEE
+    - CAFE
+    - MART
+    - SHOP
+    - STORE
+    - PHARMACY
+    - NHÀ THUỐC
+    - BÁCH HÓA
+    - VINMART
+    - WINMART
+    - VINCOMMERCE
+    - CIRCLE K
+    - MINISTOP
+    - CO.OP
+    - BIG C
+    - LOTTE
+    - HIGHLANDS
+    - THE COFFEE HOUSE
+  patterns:
+    date: \b(\d{1,2}\s*[/\-.]\s*\d{1,2}\s*[/\-.]\s*(?:20\d{2}|19\d{2}|\d{2}))\b
+    date_text: (?:ngày|ngay|date)[:\s]*(\d{1,2}\s*[/\-.\sthángngay]+\s*\d{1,2}\s*[/\-.\snăm]+\s*\d{2,4})
+    amount: (?<!\d)(\d{1,3}(?:\s*[.,]\s*\d{3})+(?:[.,]\d{1,2})?|\d{4,9})(?:\s*(?:đ|d|vnd|vnđ))?(?!\d)
+  normalize_amount: true
+evaluation:
+  cer: true
+  wer: true
+  field_f1_fields:
+  - merchant
+  - date
+  - total
+  - address
+  test_sample_size: 200
+  val_sample_size: 60
+io:
+  raise_on_corrupt: true
+  min_Receipt_height: 120
+  min_receipt_width: 120
+  split_seed: 42
+  split_ratio:
+    val: 0.5
+    test: 0.5

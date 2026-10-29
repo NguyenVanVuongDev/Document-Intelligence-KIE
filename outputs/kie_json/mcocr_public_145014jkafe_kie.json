@@ -1,0 +1,45 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014jkafe",
+  "image": "mcocr_public_145014jkafe.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+    "date": "15/08/2020",
+    "total": "25600"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ QNH 1060-1062 Tràn Phú",
+    "date": "15/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce",
+    "date": "15/08/2020",
+    "total": "25600",
+    "address": "VM+ QNH 1060-1062 Tràn Phú Só 1060-1062 Duòng Tràn Phú TP. Câm Phà, Quàng Ninh"
+  },
+  "lines": [
+    "VM+ QNH 1060-1062 Tràn Phú",
+    "Só 1060-1062 Duòng Tràn Phú",
+    "VinCommerce",
+    "TP. Câm Phà, Quàng Ninh",
+    "02471066866-49301",
+    "HÓA dN BÁN HÃNG",
+    "Ngày bán:15/08/2020 11:04 H:00064608",
+    "Quây:001 NVBH:09024144",
+    "Mät hàng dn giá SL T.Tin",
+    "Trúng gà tưði Dabaco hp 10 quå",
+    "8936057560032 25.600 1 25.600",
+    "TÖNG TIËN PHÃI T.TOÁN 25.600",
+    "TÖNG TIËN Ã GIÃM 0",
+    "TIÊN KHÁCH TRÃ 25.600",
+    "TIÊN MÄT 25.600",
+    "TIÊN TRÃ LAI 0",
+    "(Giá đã bao gőm thu GTGT)",
+    "chǐ xuát hóa đơn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM DN QUÝ KHÁCH VÀ HEN GĂP LAI",
+    "Hotline: 02471066866 Website: vinmart.com"
+  ]
+}

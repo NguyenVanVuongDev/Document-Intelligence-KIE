@@ -1,0 +1,37 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014ychqi",
+  "image": "mcocr_public_145014ychqi.jpg",
+  "gt_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CẨM PHẢ",
+    "address": "ĐC: 212 Đường Trần Phú-Cẩm Phả",
+    "date": "50/14/2008",
+    "total": "136000"
+  },
+  "baseline_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CÁM PHÀ",
+    "date": "",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "NHÀ SÁCH GD-TC CÁM PHÀ",
+    "date": "",
+    "total": "16136",
+    "address": "ĐC: 212 Duàng Trán Phú-Cm Phà"
+  },
+  "lines": [
+    "NHÀ SÁCH GD-TC CÁM PHÀ",
+    "ĐC: 212 Duàng Trán Phú-Cm Phà",
+    "Nhăn viên thu ngån:",
+    "DT 0333363328-Fax 0333863328",
+    "Thài gian:20:38:50-14/08/2020",
+    "Tèn hàng SL Gia Ck ThOnh fién",
+    "Và Friendship 72T 10 6.000 0 60.000d",
+    "V& Friendship 5 9.000 0 45.0000",
+    "Atlat Đia li VN 1 31.000 0 31.000",
+    "Töng công: 16 136.000",
+    "Chit kháu bán hàng:",
+    "Tông ső thanh toán: 136.00",
+    "XIN CÃM ON QUI KHACH!"
+  ]
+}

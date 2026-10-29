@@ -1,0 +1,54 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014fvnus",
+  "image": "mcocr_public_145014fvnus.jpg",
+  "gt_fields": {
+    "merchant": "MINIMART ANAN",
+    "address": "Chợ Sủi Phú Thị Gia Lâm",
+    "date": "Tổngtiền",
+    "total": "170820201628"
+  },
+  "baseline_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "17/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "MINIMART ANAN",
+    "date": "17/08/2020",
+    "total": "236990",
+    "address": "Tên hàng SL DVT Đon giá Thành tin"
+  },
+  "lines": [
+    "MINIMART ANAN",
+    "Chq Súi Phu Thi Gla Lăm",
+    "Tel:",
+    "HÓA DON BAN HANG",
+    "Tên hàng SL DVT Đon giá Thành tin",
+    "291017950000 Mi kokomi Tôm gà NT",
+    "Giá đăng ký: 2,500",
+    "Giá bán: 30 GOI 2,133 63,990",
+    "291026540000 Giãy cân 210,330 NT",
+    "1 GOI 30,000 30,000",
+    "291041030000 SDN fami hôp 200ml N0",
+    "Giá đăng ký: 4,500",
+    "Giá bán: 12 HOP 4,000 48,000",
+    "291005340000 GVS bolides gâu trúc NT",
+    "1 BIC 45,000 45,000",
+    "291006660000 NRC thái trăng chai 800ml NT",
+    "2 CH 25,000 50,000",
+    "Tongső: 46",
+    "Tông cng: 236,990",
+    "Tong tiên : 236,990",
+    "Tiên khách trá: VND 236,990",
+    "Mã the: A10000001285",
+    "(0) nguyn thi thão",
+    "Diêm mua: 23",
+    "Điêm hin thđi: 3,406",
+    "Hang hin thi:",
+    "Giá tri thưng tích lüy: 19,262",
+    "S6 GD: 000AC2212008002373 Ngày: 17/08/2020-16:28",
+    "Thu ngân: BH3",
+    "Xin cám đn và hn gǎp li quý khách!"
+  ]
+}

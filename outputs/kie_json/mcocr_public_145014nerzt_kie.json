@@ -1,0 +1,47 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014nerzt",
+  "image": "mcocr_public_145014nerzt.jpg",
+  "gt_fields": {
+    "merchant": "PHỐ MỎ",
+    "address": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy Tp Cẩm Phả - Quảng Ninh",
+    "date": "13/08/2020",
+    "total": "50000"
+  },
+  "baseline_fields": {
+    "merchant": "PHÓ MÒ",
+    "date": "13/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "HÓA DON BÁN HANG",
+    "date": "13/08/2020",
+    "total": "50000",
+    "address": "T 7 khu Tân Lp 4 - P.Cm Thúy - Tp Cm Phà - Quang Ninh"
+  },
+  "lines": [
+    "PHÓ MÒ",
+    "T 7 khu Tân Lp 4 - P.Cm Thúy -",
+    "Tp Cm Phà - Quang Ninh",
+    "DT: 0858.931.931",
+    "HÓA DON BÁN HANG",
+    "Så HD130820-0022 - Bàn B 9[A]",
+    "13/08/2020-20:30",
+    "Khach hang:",
+    "SDT:",
+    "Đja chì",
+    "Don già SL Thành tièn",
+    "Up Sz Quát Nha Đam",
+    "30,000 1 30,000",
+    "Trà chanh Up Sz",
+    "20,000 1 20,000",
+    "Cng tin hàng: 50,000",
+    "Chit kháu: 0",
+    "Tông cong: 50,000",
+    "Tièn khách đua 50,000",
+    "Tièn thùa: 0",
+    "Năm muoi nghin đồng chăn",
+    "Cám on và hn găp li!",
+    "Powered by POS365.VN"
+  ]
+}

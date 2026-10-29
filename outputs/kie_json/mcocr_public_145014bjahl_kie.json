@@ -1,0 +1,46 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014bjahl",
+  "image": "mcocr_public_145014bjahl.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "WM+ TTTH Chợ Sủi Số 42 Phố Sủi, xã Phú Thị huyện Gia Lâm, Hà Nội",
+    "date": "10/08/2020",
+    "total": "60000"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ TTTM Cho Sui",
+    "date": "10/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce huyén Gia Lâm, Hà Nöi",
+    "date": "10/08/2020",
+    "total": "60000",
+    "address": "VM+ TTTM Cho Súi"
+  },
+  "lines": [
+    "VM+ TTTM Cho Súi",
+    "Só 42 Phó Súi, xă Phú Thi",
+    "VinCommerce huyén Gia Lâm, Hà Nöi",
+    "024.71066866-27971",
+    "HÓA DON BÁN HÀNG",
+    "Ngày bán:10/08/2020 15:19 HD:00229633",
+    "Quay:001 NVBH:09007033",
+    "Mǎt hàng Don glá SL T.Tièn",
+    "Thuc uóng Kun socola lua mach 110m1",
+    "8936025772139 5.000 8 40.000",
+    "Süa chua uóng L1fKun huong cam 110m1",
+    "8936025772122 5.000 4 20.000",
+    "TÓNG TIÊN PHÃI T.TOÁN 60.000",
+    "TÓNG TIÊN DÃ GIAM 0",
+    "TIÈN KHÁCH TRA 60.000",
+    "TIÊN MÄT 60.000",
+    "TIÊN TRA LAI 0",
+    "(Giá dǎ bao gòm thué GTGT)",
+    "Chi xuát hóa don trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM ON QUÝ KHÁCH VÀ HEN GÃP LAI",
+    "Hot1ine: 02471066866 Website: vinmart.com"
+  ]
+}

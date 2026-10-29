@@ -1,0 +1,50 @@
+{
+  "uid": "mc-ocr/mcocr_public_145014cftxo",
+  "image": "mcocr_public_145014cftxo.jpg",
+  "gt_fields": {
+    "merchant": "VinCommerce",
+    "address": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Hình Tiến A P. Cẩm Bình TP. Cẩm Phả, QNH",
+    "date": "09/08/2020",
+    "total": "114700"
+  },
+  "baseline_fields": {
+    "merchant": "VM+ QNH T6 7, Khu Minh Tin A",
+    "date": "09/08/2020",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "VinCommerce 02471066886-51561",
+    "date": "09/08/2020",
+    "total": "114700",
+    "address": "VM+ QNH T6 7, Khu Minh Tin A Tó 7. Khu Minh Tién A P. Căm Binh. TP. Cm Pha, QNH"
+  },
+  "lines": [
+    "VM+ QNH T6 7, Khu Minh Tin A",
+    "Tó 7. Khu Minh Tién A",
+    "P. Căm Binh. TP. Cm Pha, QNH",
+    "VinCommerce 02471066886-51561",
+    "HÓA DN BÁN HÃNG",
+    "Ngày bán:09/08/2020 20:30 H:00032065",
+    "Quãy:001 NVBH:09025438",
+    "Mät hàng dn giá SL T.Tien",
+    "LAURIER BVS SM bãO vê 1mm 22,5cm 10miéng",
+    "8851818707962 43.000 1 43.000",
+    "IPEK Bông tay trang 120M",
+    "8691275000523 37.000 1 37.000",
+    "LAURIER BVS h.ngày activefit k.hudng20M",
+    "4901301043207 18.000 18.000",
+    "BÃO MINH KeO DÖi 150g/ 120g",
+    "8936017569020 16.700 16.700",
+    "TÖNG TIEN PHÃI T.TOÁN 114.700",
+    "TÖNG TIEN Ã GIÃM 0",
+    "TIEN KHÁCH TRÃ 114.700",
+    "TIEN MAT 500.000",
+    "TIËN TRÃ LAI 385.300",
+    "(Giá đã bao gőm thué GTGT)",
+    "chǐ xuát hóa đdn trong ngày",
+    "Tax invoice will be issued within same day",
+    "CÁM DN QUÝ KHÁCH VÃ HEN GÄP LAI",
+    "Hotline: 02471066866 Website: vinmart.com"
+  ]
+}

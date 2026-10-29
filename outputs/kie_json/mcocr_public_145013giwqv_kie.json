@@ -1,0 +1,45 @@
+{
+  "uid": "mc-ocr/mcocr_public_145013giwqv",
+  "image": "mcocr_public_145013giwqv.jpg",
+  "gt_fields": {
+    "merchant": "Công ty Cổ Phần Thế Giới Di Động",
+    "address": "5780 - TINO - Kho CN DMX Dong Anh",
+    "date": "",
+    "total": "400000"
+  },
+  "baseline_fields": {
+    "merchant": "A",
+    "date": "",
+    "total": "",
+    "address": ""
+  },
+  "spatial_kie_fields": {
+    "merchant": "Cong ty Có Phan Thé Giói Di Dong",
+    "date": "",
+    "total": "400000",
+    "address": "5780 - HNO- Kho CN DMN Dong Anl Nguyen Ván Thian"
+  },
+  "lines": [
+    "So lan in 1 Ny 1701 2020211",
+    "Cong ty Có Phan Thé Giói Di Dong",
+    "5780 - HNO- Kho CN DMN Dong Anl",
+    "PHIEUMUAIIANG",
+    "Nguyen Ván Thian",
+    "Dien thoat 0976822333",
+    "Pinien Mun Hane-100 000d dP00h",
+    "ban 口",
+    "Gra hap su dong 400,000",
+    "ían su dane",
+    "Sreu thí ap dang Inentoantkeihong sseh",
+    "Ma phiem 100k1200-1667C4",
+    "口",
+    "01859803001013287",
+    "Ngáy suat",
+    "NV bán hang 101972 - Hoang Ngoe Son",
+    "w Pdy",
+    "Phréu dag chu tén",
+    "hane EH mara h",
+    "Chúng tôi có quyên tù chôi cae quyên tol lien",
+    "quan khi khách hàng lam mat phiei"
+  ]
+}
