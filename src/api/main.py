@@ -14,6 +14,7 @@ import numpy as np
 import yaml
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.concurrency import run_in_threadpool
+from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
 
 from src.kie.extractor import extract_spatial_kie
@@ -77,19 +78,22 @@ def _jpeg_base64(image: np.ndarray) -> str:
     return base64.b64encode(encoded).decode("ascii")
 
 
+def _is_key_value(text: str, fields: dict[str, str]) -> bool:
+    normalized_text = re.sub(r"\s+", " ", text.casefold()).strip()
+    normalized_fields = [value.casefold() for value in fields.values() if value]
+    if any(value in normalized_text or normalized_text in value for value in normalized_fields):
+        return True
+    if re.search(r"\b(?:tổng|tong|total|thanh toán|thanh toan|date|ngày|ngay)\b", text, re.IGNORECASE):
+        return True
+    text_digits = re.sub(r"\D", "", text)
+    total_digits = re.sub(r"\D", "", fields.get("total", ""))
+    return bool(text_digits and total_digits and text_digits == total_digits)
+
+
 def _annotate(image: np.ndarray, boxes: list[Any], fields: dict[str, str]) -> np.ndarray:
     output = image.copy()
-    key_values = [value.casefold() for value in fields.values() if value]
     for box in boxes:
-        text = box.text
-        normalized_text = re.sub(r"\s+", " ", text.casefold()).strip()
-        digits = re.sub(r"\D", "", text)
-        is_key = any(value in normalized_text or normalized_text in value for value in key_values)
-        is_key = is_key or bool(
-            re.search(r"\b(?:tổng|tong|total|thanh toán|thanh toan|date|ngày|ngay)\b", text, re.IGNORECASE)
-        )
-        if fields.get("total") and digits and digits == re.sub(r"\D", "", fields["total"]):
-            is_key = True
+        is_key = _is_key_value(box.text, fields)
         polygon = np.asarray(box.polygon, dtype=np.int32).reshape(-1, 1, 2)
         color = (0, 0, 255) if is_key else (255, 100, 0)
         cv2.polylines(output, [polygon], isClosed=True, color=color, thickness=2)
@@ -118,7 +122,12 @@ def _analyze(image: np.ndarray, config: dict[str, Any], engine: OCREngine) -> di
         "full_text": extraction["full_text"],
         "lines": extraction["lines"],
         "boxes": [
-            {"bbox": box.polygon, "text": box.text, "confidence": box.confidence}
+            {
+                "bbox": box.polygon,
+                "text": box.text,
+                "confidence": box.confidence,
+                "is_key_value": _is_key_value(box.text, extraction["fields"]),
+            }
             for box in boxes
         ],
         "preprocessing": {"steps": preprocessing.steps},
@@ -156,3 +165,6 @@ async def analyze(image: UploadFile = File(...)) -> dict[str, Any]:
     decoded = _validate_and_decode(payload, image.content_type or "")
     async with app.state.inference_lock:
         return await run_in_threadpool(_analyze, decoded, app.state.config, app.state.ocr_engine)
+
+
+app.mount("/", StaticFiles(directory=PROJECT_ROOT / "receipt-web", html=True), name="web")

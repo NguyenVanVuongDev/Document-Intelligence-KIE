@@ -18,7 +18,7 @@ RUN python -m pip install --upgrade pip \
 
 COPY configs ./configs
 COPY src ./src
-COPY app ./app
+COPY receipt-web ./receipt-web
 COPY README.md ./README.md
 
 RUN python -c "from paddleocr import PaddleOCR; PaddleOCR(lang='vi', use_textline_orientation=True, use_doc_orientation_classify=False, use_doc_unwarping=False, text_det_limit_side_len=960, text_det_limit_type='max')"

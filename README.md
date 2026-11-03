@@ -1,6 +1,6 @@
 # Document Intelligence & Spatial KIE Pipeline
 
-## Day 3: API, Demo UI & Docker
+## Day 3: Web App, API & Docker
 
 ### Chạy local
 
@@ -10,20 +10,17 @@ Cài dependencies bằng Python 3.10+:
 python -m pip install -r requirements.txt
 ```
 
-Mở hai terminal tại thư mục dự án. API tải model PaddleOCR khi khởi động lần đầu và warm-up bằng ảnh 64x64:
+API đồng thời phục vụ giao diện web tại `/`, tải model PaddleOCR khi khởi động lần đầu và warm-up bằng ảnh 64x64:
 
 ```powershell
 uvicorn src.api.main:app --host 127.0.0.1 --port 8000
 ```
 
-```powershell
-streamlit run app/streamlit_app.py
-```
-
-Mở URL Streamlit được in trong terminal (mặc định `http://localhost:8501`). Có thể đặt `KIE_API_URL` nếu API không chạy tại `http://127.0.0.1:8000`.
+Mở [http://127.0.0.1:8000](http://127.0.0.1:8000). Giao diện trong `receipt-web/` được phục vụ cùng origin với API nên không cần cấu hình CORS.
 
 ### API
 
+- `GET /`: giao diện web Receipt Intelligence.
 - `GET /health`: kiểm tra API đang hoạt động.
 - `POST /analyze`: nhận multipart field `image` (JPEG/PNG), trả về `fields`, OCR `boxes` với polygon/text/confidence, logical lines, ảnh đã xử lý và overlay dạng Base64 cùng latency từng pha.
 
@@ -38,7 +35,7 @@ docker build -t document-intelligence-kie .
 docker run --rm -p 8000:8000 document-intelligence-kie
 ```
 
-Container phục vụ API tại `http://localhost:8000`; chạy Streamlit local theo hướng dẫn trên và đặt `KIE_API_URL=http://127.0.0.1:8000` để dùng demo.
+Container phục vụ cả giao diện web và API tại `http://localhost:8000`.
 
 ## Bảng kết quả Benchmark & Ablation Study (Day 2)
 
