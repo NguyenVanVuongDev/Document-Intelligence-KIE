@@ -19,9 +19,10 @@
   const LABELS = { merchant: 'Cửa hàng', date: 'Ngày', time: 'Giờ', total: 'Tổng thanh toán', address: 'Địa chỉ', phone: 'Điện thoại' };
   const CORE = ['merchant', 'date', 'total', 'address'];
 
+  const savedPath = LS.get('kie.path', '');
   const cfg = {
     base: LS.get('kie.base', 'http://127.0.0.1:8000'),
-    path: LS.get('kie.path', '/analyze'),
+    path: !savedPath || savedPath === '/analyze' ? '/api/v1/receipts/process' : savedPath,
   };
 
   const S = {
@@ -227,14 +228,21 @@
 
   async function httpError(res) {
     let detail = '';
+    let errorCode = '';
+    let receiptId = null;
     try {
       const j = await res.json();
-      const d = j.detail ?? j.message ?? j.error;
+      const body = j.detail && typeof j.detail === 'object' && !Array.isArray(j.detail) ? j.detail : j;
+      errorCode = body.code || '';
+      receiptId = body.receipt_id ?? null;
+      const d = body.message ?? body.detail ?? body.error;
       detail = Array.isArray(d) ? d.map((x) => x.msg || x).join('; ') : (typeof d === 'string' ? d : '');
     } catch { /* không phải JSON */ }
+    const duplicate = errorCode === 'DUPLICATE_RECEIPT_DETECTED';
     const map = { 413: 'Ảnh quá lớn so với giới hạn của máy chủ.', 415: 'Máy chủ không hỗ trợ định dạng ảnh này.', 422: 'Máy chủ không chấp nhận ảnh này.', 503: 'Máy chủ chưa sẵn sàng, hãy thử lại sau ít giây.' };
-    const e = new Error(detail || map[res.status] || `Máy chủ trả về lỗi ${res.status}.`);
-    e.title = 'Máy chủ từ chối yêu cầu';
+    const duplicateMessage = `Hóa đơn đã được xử lý trước đó${receiptId ? ` (mã #${receiptId})` : ''}.`;
+    const e = new Error(duplicate ? duplicateMessage : detail || map[res.status] || `Máy chủ trả về lỗi ${res.status}.`);
+    e.title = duplicate ? 'Phát hiện hóa đơn trùng' : 'Máy chủ từ chối yêu cầu';
     return e;
   }
 

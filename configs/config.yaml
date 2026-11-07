@@ -153,6 +153,8 @@ evaluation:
   - address
   test_sample_size: 200
   val_sample_size: 60
+database:
+  perceptual_hash_threshold: 4
 io:
   raise_on_corrupt: true
   min_Receipt_height: 120
